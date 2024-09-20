@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            padding: 10px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            font-size: 25px;
+            color: #CCD5AE;
+            background-color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #CCD5AE;
+            color: white;
+        }
+    </style>
+</head>
+<body style="font-family: SUSE, sans-serif; display: flex; justify-content: center; align-items: center; height: 750px; background-color: #D6CCC2;">
+    <div style="width: 75%; height: 75%; background-color: #D5BDAF; border-radius: 25px; display: flex; overflow: hidden;">
+        <div style="width: 50%; display: flex; justify-content: center; align-items: center; background-color: #eaeaea;">
+            <img src="/images/PhotoCon.png" style="width: 400px; height: 400px; border-radius: 50%; object-fit: cover;">
+        </div>
+        <div style="width: 50%; padding: 20px; display: flex; flex-direction: column; justify-content: center; background-color: #ffffff; font-size: 25px;">
+            <p>Email: khamidollarasul@gmail.com</p>
+            <p>Phone: +123456789</p>
+            <p>Telegram: @Kroph_CG</p>
+            <div class="button-container">
+                <a href="home.html" class="button">About Me</a>
+                <a href="hobbies.html" class="button">My hobby</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
